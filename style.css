@@ -46,3 +46,6 @@ body {
 .editor-canvas {
   flex-grow: 1;
 }
+.panel__switcher {
+  position: initial;
+}
