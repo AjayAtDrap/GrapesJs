@@ -19,22 +19,31 @@
   </head>
   <body>
     <div class="container-fluid">
-        <div class="row no-gutters ">
-          <!-- Block Manager on the left -->
-          <div class="col-md-3 p-0 ">
+      <div class="row">
+        <div class="col-md-12  panel__top">
+          <div class="panel__basic-actions"></div>
+        </div>
+      </div>
+
+      <div class="row no-gutters">
+        <!-- Block Manager on the left -->
+        <div class=" bg-dark vh-100 col-md-2 d-none d-sm-block p-0">
             <div id="blocks">
-              <!-- Add your block manager content here -->
-            </div>
+            <!-- Add your block manager content here -->
           </div>
-    
-          <!-- GrapesJS canvas on the right -->
-          <div class="col-md-9 p-0 ">
-            <div id="gjs" class="container-fluid">
-              <h1>Welcome to our Editor</h1>
-            </div>
+        </div>
+
+        <!-- GrapesJS canvas on the right -->
+        <div class="editor-row col-md-10 p-0">
+          <div id="gjs" class="editor-canvas container-fluid">
+            <h1>Welcome to our Editor</h1>
+          </div>
+          <div class="panel__right vh-100  d-none d-sm-block">
+            <div class="layers-container"></div>
           </div>
         </div>
       </div>
+    </div>
   </body>
   <script src="script.js"></script>
 </html>
