@@ -34,6 +34,7 @@ body {
   flex-basis: 230px;
   position: relative;
   overflow-y: auto;
+  background-color: #444;
 }
 .editor-row {
   display: flex;
@@ -49,3 +50,6 @@ body {
 .panel__switcher {
   position: initial;
 }
+.gjs-layer{
+  background-color: #444;
+}  
